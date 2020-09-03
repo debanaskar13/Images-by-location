@@ -41,6 +41,7 @@ $(document).ready(function(){
                         }
                     }
                 )
+            },
             error:function(data){
                 $('body').html(data)
                 console.log("error")
